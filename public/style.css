@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+input#nome {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #cde6fade;
+    color: azure;
+}
+
+form#form_animal {
+    padding: 10px;
+}
