@@ -1,29 +1,43 @@
 body {
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;}
+    
 
 h1 {
     font-size: 40px;
     text-align: center;
+    align-items: center;
 }
 
 input#nome {
-    width: 80%;
+    width: 20%;
     height: 40px;
     border-radius: 10px;
     text-align: center;
+    align-items: center;
+  
 }
 
 input {
     height: 30px;
     border-radius: 5px;
-    background-color: #cde6fade;
-    color: azure;
+    background-color: #a4a7a3de;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+
 }
 
 form#form_animal {
     padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    display: block;
 }

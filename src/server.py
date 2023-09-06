@@ -10,7 +10,7 @@ from uuid import uuid4 #códigosMaioresAleatórios
 app = FastAPI()
 
 # autorizacar conexao backend and front end - origem de onde a aplicação web está hospedada/irá consumir
-origins = ['http://localhost:5500']
+origins = ['http://127.0.0.1:5500']
 # middleware =  no meio do caminho, habilitar o cors:
 app.add_middleware(
     CORSMiddleware,
